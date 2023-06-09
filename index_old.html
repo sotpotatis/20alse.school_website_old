@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>20alse's webbsida</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.vide.min.js" defer></script>
+  </head>
+  <body>
+
+
+    <div
+      id="head-section"
+      data-vide-bg="/start_page_assets/background.mp4"
+      data-vide-options="loop: true, muted: true, position: 0% 0%"
+    >
+      <div id="top-text">
+        <h1 class="big-heading">
+          20alse/Albin Seijmer
+        </h1>
+        <p class="big-paragraph">
+          <b>Hej på dig!</b> |
+          <span
+            class="iconify"
+            data-icon="octicon:mail-16"
+            data-inline="false"
+          ></span>
+          <a href="mailto:20alse@stockholmscience.se" class="big-link"
+            >20alse@stockholmscience.se</a
+          >
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div id="projects">
+      <div class="project-box-parent-heading">
+        <h1>
+          Projekt
+        </h1>
+        <p>
+          Här hittar du mina projekt, både som jag gjort under lektionstid och
+          projekt som är relaterade till SSIS men gjorda på fritiden.
+        </p>
+        <div id="school-projects" class="project-box-parent">
+          <div class="project-box-parent-heading">
+            <h2>
+              Skolprojekt
+            </h2>
+            <div class="project-box-container">
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/albins_vm.png"
+                />
+                <h4>
+                  Virtuell maskin
+                </h4>
+                <p>
+                  Min virtuella maskin med Apache2 och en katt på startsidan.
+                </p>
+                <button onclick="window.open('http://192.168.158.117/')">
+                  Till startsidan
+                </button>
+              </div>
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/filur.png"
+                />
+                <h4>
+                  Filurhemsidan
+                </h4>
+                <p>
+                  Min färdiga version av hemsidan med den glada figuren på.
+                </p>
+                <button onclick="window.open('/www/filursite')">
+                  Till sidan
+                </button>
+              </div>
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/uppgift1.png"
+                />
+                <h4>
+                  Uppgift 1
+                </h4>
+                <p>
+                  Min färdiga version av Uppgift 1 i dator- och nätverksteknik.
+                </p>
+                <button onclick="window.open('/www/uppgift1')">
+                  Till sidan
+                </button>
+              </div>
+				<div class="project-box">
+                <img
+                  src="/start_page_assets/www_folder.png"
+                />
+                <h4>
+                  /www/
+                </h4>
+                <p>
+                  En mapp med massa HTML-filer gjort som en del i Dator- och nätverksteknik.
+                </p>
+                <button onclick="window.open('/www')">
+                  Öppna mappen
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sparetime-projects" class="project-box-parent">
+          <div class="project-box-heading">
+            <h2>
+              Övriga projekt
+            </h2>
+            <div class="project-box-container">
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/lunchbot_python_api_docs.png"
+                />
+                <h4>
+                  Lunchbot Python Library
+                </h4>
+                <p>
+                  Ett Python-bibliotek till
+                  <a href="https://eatery.nero2k.com" target="_blank"
+                    >Lunchbot API</a
+                  >.
+                </p>
+                <button class="box-button" onclick="window.open('https://lunchbot-python.albins.website')">
+                  Dokumentation
+                </button>
+              </div>
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/pentryansvar.png"
+                />
+                <h4>
+                  Vem har pentryansvar?
+                </h4>
+                <p>
+                  Enkel hemsida för att se vem som har pentryansvar denna vecka.
+                </p>
+                <button
+                  class="box-button"
+                  onclick="window.open('/pentry')"
+                >
+                  Till hemsidan
+                </button>
+              </div>
+<div class="project-box">
+                <img
+                  src="/start_page_assets/distans.png"
+                />
+                <h4>
+                  Vem har fjärr?
+                </h4>
+                <p>
+                  Enkel hemsida för att se vem som har fjärrundervisning den aktuella dagen.
+                </p>
+                <button
+                  class="box-button"
+                  onclick="window.open('/distans')"
+                >
+                  Till hemsidan
+                </button>
+              </div>
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/coming_soon.png"
+                />
+                <h4>
+                  SSIS Discord RPC
+                </h4>
+                <p>
+                  En integration med Discord Rich Precense som visar vilken
+                  SSIS-lektion man är på.
+                </p>
+                <h5 class="disabled-text">
+                  Snart open source
+                </h5>
+              </div>
+
+ <div class="project-box">
+                <img
+                  src="/start_page_assets/coming_soon.png"
+                />
+                <h4>
+                  SSIS Schedule Python
+                </h4>
+                <p>
+                  Ett Python-bibliotek för att hämta schemat för en klass, lärare, eller ett rum på SSIS.
+                </p>
+             <button
+                  class="box-button"
+                  onclick="window.open('https://github.com/sotpotatis/SSIS-Schedule-Python)"
+                >
+                  GitHub
+                </button>
+
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/coming_soon.png"
+                />
+                <h4>
+                  SSIS Schedule Tray
+                </h4>
+                <p>
+                  En tray-ikon till Windows som visar hur många minuter som är
+                  kvar på den aktuella lektionen.
+                </p>
+                <h5 class="disabled-text">
+                  Snart open source
+                </h5>
+              </div>
+              <div class="project-box">
+                <img
+                  src="https://cdn.glitch.com/71f5cda3-ce50-4614-91bd-c17e3ed3df9f%2Fte20a_discord.png?v=1603464456711"
+                />
+                <h4>
+                  Te20A Bot
+                </h4>
+                <p>
+                  En Discord-bot med flera SSIS-relaterade funktioner till min
+                  klass.
+                </p>
+                <h5 class="disabled-text">
+                  Snart open source
+                </h5>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="https://cdn.glitch.com/71f5cda3-ce50-4614-91bd-c17e3ed3df9f%2Fdiscord_schedule.png?v=1603464456762"
+                />
+                <h4>
+                  SSIS Schedule Webhook
+                </h4>
+                <p>
+                  En Discord-bot baserad på webhooks som skickar påminnelser om
+                  lektioner.
+                </p>
+                <h5 class="disabled-text">
+                  Snart open source
+                </h5>
+              </div>
+      <div class="project-box">
+                <img
+                  src="/start_page_assets/heldagsevent.png"
+                />
+                <h4>
+                  SSIS Heldagsevent Webhook
+                </h4>
+                <p>
+                  En Discord-bot baserad på webhooks som skickar vilka heldagsevent som är i skolan varje dag 01:00.
+                </p>
+                <h5 class="disabled-text">
+                  Snart open source
+                </h5>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/ssis_retro_theme.png"
+                />
+                <h4>
+                  SSIS teman
+                </h4>
+                <p>
+                  CSS-teman som ändrar utseendet på SSIS.nu-startsidan via
+                  webbläsarpluginet Stylebot.
+                </p>
+                <button
+                  class="box-button"
+                  onclick="window.open('https://git.ssis.nu/20alse/ssis.nu-css-teman/-/blob/master/README.md')"
+                >
+                  Mer information
+                </button>
+              </div>
+              <div class="project-box">
+                <img
+                  src="/start_page_assets/click_the_happy_man.png"
+                />
+                <h4>
+                  Click the happy man!
+                </h4>
+                <p>
+                  Ett väldigt enkelt spel med ett mål: "Click the happy man!".
+                  Dessutom med otrolig webbdesign.
+                </p>
+                <button
+                  class="box-button"
+                  onclick="window.open('/clicker')"
+                >
+                  Spela spelet
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="wishlist" class="project-box-parent">
+        <div class="project-box-parent-heading">
+          <h1>
+            Wishlist
+          </h1>
+          <p>
+            Pågående skolrelaterade projekt som jag arbetar på.
+          </p>
+          <div class="project-box-container">
+            <div class="project-box">
+              <img
+                src="/start_page_assets/coming_soon.png"
+              />
+              <h4>
+                Pentryansvar Webhook
+              </h4>
+              <p>
+                Integration med Discord Webhooks som visar vem som har
+                pentryansvar i skolan.
+              </p>
+              <h5 class="disabled-text">
+                Pågående
+              </h5>
+            </div>
+            <div class="project-box">
+              <img
+                src="/start_page_assets/coming_soon.png"
+              />
+              <h4>
+                Open Sourcing
+              </h4>
+              <p>
+                Gör alla mina projekt hittills publikt tillgängliga för
+                nedladdning.
+              </p>
+              <h5 class="disabled-text">
+                Pågående
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>
+        Tack för att du besöker min hemsida! Innehållsansvarig: 20alse, Albin
+        Seijmer.
+      </p>
+      <p>
+        Stort tack till <a href="https://ssis.nu/?p=hem">SSIS servrar</a>,
+        <a href="https://iconify.design/" target="_blank">Iconify</a>, och
+        <a href="https://github.com/VodkaBears/Vide#readme" target="_blank"
+          >vide.js</a
+        >
+        som gör denna webbsida möjlig.
+      </p>
+    </div>
+  </body>
+</html>

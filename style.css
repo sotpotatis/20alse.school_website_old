@@ -1,0 +1,110 @@
+/* Stiliga stilar till min stiliga webbsida. */
+
+body {
+  background: #ebebeb;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  color: black;
+}
+#banner {
+background: gold;
+color: white;
+}
+#banner a {
+color: white;
+font-weight: bold;
+}
+
+#head-section {
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+  justify-content: left;
+}
+#top-text {
+  text-align: center;
+  color: black;
+  background: #bdbdbd;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-radius: 7px;
+}
+#top-text a {
+  color: black;
+}
+.big-heading {
+  font-size: 250%;
+}
+.big-paragraph {
+  font-size: 100%;
+}
+.big-link {
+  font-size: 100%;
+}
+#projects {
+  display: block;
+}
+.project-box-parent {
+  display: flex;
+  flex-direction: row;
+}
+.project-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-box-heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-box {
+  background: white;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  width: 25%;
+  max-width: 2%%;
+  height: auto;
+}
+.project-box p {
+  font-size: 80%;
+}
+.project-box img {
+  width: 100%;
+  height: auto;
+}
+.project-box button {
+  border: 2% solid black;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  font-size: 80%;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+.project-box button:hover {
+  background: grey;
+  cursor: pointer;
+}
+.disabled-text {
+  color: grey;
+}
+.disabled-text:hover {
+  cursor: not-allowed;
+}
+#footer {
+  font-size: 70%;
+}
